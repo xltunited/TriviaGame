@@ -30,81 +30,217 @@
 
 		<script type="text/javascript" src="./assets/javascript/app.js"></script>
 
-		<!-- fonts -->
+		<!-- Fonts -->
 
 		<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Raleway" rel="stylesheet">
+
+		<!-- FontAwesome -->
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 	</head>
 
 	<body>
 
 		<div class="container-fluid">
-			
-			<div class="row font-style-heading1">
+
+			<div class="container-fluid gameSelectionScreen">
 				
-				<div class="col-sm-12">
+				<div class="row font-style-heading1">
 					
-					Welcome To Trivia!
+					<div class="col-sm-12">
+						
+						Welcome To Trivia!
+
+					</div>
+
+				</div>
+
+				<div class="row font-style-heading2">
+					
+					<div class="col-sm-12">
+						
+						Select Your Game Mode
+
+					</div>
+
+				</div>
+
+				<div class="row font-style-heading3">
+					
+					<div class="col-sm-2"></div>
+
+					<div class="col-sm-2">
+						
+						Difficulty <br>
+
+						<button class="btn btn-lg btn-easy difficultySelector" data-difficultySelector="easy">Easy</button>
+
+						<button class="btn btn-lg btn-medium difficultySelector" data-difficultySelector="medium">Medium</button>
+
+						<button class="btn btn-lg btn-hard difficultySelector" data-difficultySelector="hard">Hard</button>
+
+					</div>
+
+					<div class="col-sm-1"></div>
+
+					<div class="col-sm-2">
+						
+						Category
+
+						<button class="btn btn-lg btn-geo categorySelector" data-categorySelector="geography">Geography <i class="fa fa-globe" aria-hidden="true"></i></button>
+
+						<button class="btn btn-lg btn-his categorySelector" data-categorySelector="history">History <i class="fa fa-book" aria-hidden="true"></i></button>
+
+						<button class="btn btn-lg btn-sci categorySelector" data-categorySelector="science">Science <i class="fa fa-flask" aria-hidden="true"></i></button>
+
+					</div>
+
+					<div class="col-sm-1"></div>
+
+					<div class="col-sm-2">
+						
+						Number of questions <br>
+
+						<button class="btn btn-lg btn-5 questionsSelector" data-questionsSelector=5>5</button>
+
+						<button class="btn btn-lg btn-10 questionsSelector" data-questionsSelector=10>10</button>
+
+						<button class="btn btn-lg btn-15 questionsSelector" data-questionsSelector=15>15</button>
+
+					</div>
+
+					<div class="col-sm-2"></div>
+
+				</div>
+
+				<div class="row gameInstructions">
+					
+					<div class="col-sm-4"></div>
+
+					<div class="col-sm-4">
+						
+						<div class="jumbotron">
+							
+							<p>Game Instructions</p> <p>You will have 15 seconds to answer each question, if you answer correctly you will move on to the next question. Otherwise the correct answer will be shown  </p>
+
+						</div>
+
+					</div>
+
+					<div class="col-sm-4"></div>
+
+				</div>
+
+				<div class="row font-style-heading4">
+
+					<div class="col-sm-5"></div>
+					
+					<div class="col-sm-2">
+						
+						<button class="btn btn-lg btn-begin begin">Begin!</button>
+
+					</div>
+
+					<div class="col-sm-5"></div>
 
 				</div>
 
 			</div>
 
-			<div class="row font-style-heading2">
+			<div class="container-fluid questionScreen">
 				
-				<div class="col-sm-12">
+				<div class="row font-style-heading3">
+
+					<div class="col-sm-3"></div>
 					
-					Select Your Game Mode
+					<div class="col-sm-2 questionNumberHolder">
+						
+						Question # 
+
+					</div>
+
+					<div class="col-sm-2"></div>
+
+					<div class="col-sm-2 timeRemainingHolder">
+						
+						Time Remaining: 
+
+					</div>
+
+					<div class="col-sm-3"></div>
 
 				</div>
 
-			</div>
-
-			<div class="row font-style-heading3">
-				
-				<div class="col-sm-2"></div>
-
-				<div class="col-sm-2">
+				<div class="row font-style-heading2">
 					
-					Difficulty <br>
+					<div class="col-sm-3"></div>
 
-					<button class="btn btn-lg btn-easy difficultySelector" data-difficultySelector="easy">Easy</button>
+					<div class="col-sm-6 questionHolder">
+						
+						
 
-					<button class="btn btn-lg btn-medium difficultySelector" data-difficultySelector="medium">Medium</button>
+					</div>
 
-					<button class="btn btn-lg btn-hard difficultySelector" data-difficultySelector="hard">Hard</button>
+					<div class="col-sm-3"></div>
 
 				</div>
 
-				<div class="col-sm-1"></div>
-
-				<div class="col-sm-2">
+				<div class="row answerRows">
 					
-					Category
+					<div class="col-sm-5"></div>
 
-					<button class="btn btn-lg btn-geo categorySelector" data-categorySelector="geography">Geography</button>
+					<button class="col-sm-2 answer1Holder well answer">
+						
+						A.
 
-					<button class="btn btn-lg btn-his categorySelector" data-categorySelector="history">History</button>
+					</button>
 
-					<button class="btn btn-lg btn-sci categorySelector" data-categorySelector="science">Science</button>
+					<div class="col-sm-5"></div>
 
 				</div>
 
-				<div class="col-sm-1"></div>
-
-				<div class="col-sm-2">
+				<div class="row answerRows">
 					
-					Number of questions <br>
+					<div class="col-sm-5"></div>
 
-					<button class="btn btn-lg btn-5 questionsSelector" data-questionsSelector=5>5</button>
+					<button class="col-sm-2 answer2Holder well answer">
+						
+						B.
 
-					<button class="btn btn-lg btn-10 questionsSelector" data-questionsSelector=10>10</button>
+					</button>
 
-					<button class="btn btn-lg btn-15 questionsSelector" data-questionsSelector=15>15</button>
+					<div class="col-sm-5"></div>
 
 				</div>
 
-				<div class="col-sm-2"></div>
+				<div class="row answerRows">
+					
+					<div class="col-sm-5"></div>
+
+					<button class="col-sm-2 answer3Holder well answer">
+						
+						C.
+
+					</button>
+
+					<div class="col-sm-5"></div>
+
+				</div>
+
+				<div class="row answerRows">
+					
+					<div class="col-sm-5"></div>
+
+					<button class="col-sm-2 answer4Holder well answer">
+						
+						D.
+
+					</button>
+
+					<div class="col-sm-5"></div>
+
+				</div>
 
 			</div>
 

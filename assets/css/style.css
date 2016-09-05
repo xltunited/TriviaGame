@@ -447,6 +447,53 @@ fieldset[disabled] .btn-sci.active {
   background-color: #000000; 
 }
 
+.btn-begin { 
+  color: #ffffff; 
+  background-color: #000000; 
+  border-color: #000000; 
+
+  width: 100%;
+} 
+ 
+.btn-begin:hover, 
+.btn-begin:focus, 
+.btn-begin:active, 
+.btn-begin.active, 
+.open .dropdown-toggle.btn-begin { 
+  color: #ffffff; 
+  background-color: #39353D; 
+  border-color: #000000; 
+} 
+ 
+.btn-begin:active, 
+.btn-begin.active, 
+.open .dropdown-toggle.btn-begin { 
+  background-image: none; 
+} 
+ 
+.btn-begin.disabled, 
+.btn-begin[disabled], 
+fieldset[disabled] .btn-begin, 
+.btn-begin.disabled:hover, 
+.btn-begin[disabled]:hover, 
+fieldset[disabled] .btn-begin:hover, 
+.btn-begin.disabled:focus, 
+.btn-begin[disabled]:focus, 
+fieldset[disabled] .btn-begin:focus, 
+.btn-begin.disabled:active, 
+.btn-begin[disabled]:active, 
+fieldset[disabled] .btn-begin:active, 
+.btn-begin.disabled.active, 
+.btn-begin[disabled].active, 
+fieldset[disabled] .btn-begin.active { 
+  background-color: #000000; 
+  border-color: #000000; 
+} 
+ 
+.btn-begin .badge { 
+  color: #000000; 
+  background-color: #ffffff; 
+}
 .font-style-heading1{
 
   text-align: center;
@@ -489,5 +536,48 @@ fieldset[disabled] .btn-sci.active {
 .btn{
 
   font-size: 1em;
+
+}
+
+.font-style-heading4{
+
+  text-align: center;
+  color: #ffffff;
+
+  font-size: 3em;
+  font-family: 'Berkshire Swash', cursive;
+
+  margin-top: 100px;
+
+}
+
+.begin{
+
+  display: none;
+
+}
+
+.gameInstructions{
+
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+
+  text-align: center;
+
+}
+
+.questionScreen{
+
+  display: none;
+
+}
+
+.answerRows{
+
+  text-align: center;
+
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 1.5em;
 
 }
