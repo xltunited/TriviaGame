@@ -92,7 +92,7 @@ $(document).ready(function(){
 
 	var q9 = new quizQuestion('geography', 9, 'easy', "Besides North America, it's the only continent completely north of the equator", 'Antartica', 'Europe', 'Asia', 'Russia', 'Europe');
 
-	var q10 = new quizQuestion('geography', 10, 'easy', 'Clocks Peru read the same as in this U.S. time zone', 'Eastern', 'Western', 'Central', 'South Western', 'Eastern');
+	var q10 = new quizQuestion('geography', 10, 'easy', 'Clocks in Peru read the same as in this U.S. time zone', 'Eastern', 'Western', 'Central', 'South Western', 'Eastern');
 
 	var q11 = new quizQuestion('geography', 11, 'easy', 'What is the largest country (in land) in South America?', 'Argentina', 'Colombia', 'Brazil', 'Chile', 'Brazil');
 
@@ -104,9 +104,71 @@ $(document).ready(function(){
 
 	var q15 = new quizQuestion('geography', 15, 'easy', "If you live on the equator, you'll note you usually have this many hours of daylight a day", '12 Hours', '2 Hours', '8 Hours', '20 Minutes', '12 Hours');
 
+	var q16 = new quizQuestion('geography', 16, 'medium', 'Hippo Regius, in the north of this continent, was the diocesan seat of St. Augustine', 'North America', 'Africa', 'Australia', 'Europe', 'Africa');
+
+	var q17 = new quizQuestion('geography', 17, 'medium', 'In which sea does the Swedish island Gotland lie in?', 'Mediterranean Sea', 'Java Sea', 'Adriatic Sea', 'The Baltic Sea', 'the Baltic Sea');
+
+	var q18 = new quizQuestion('geography', 18, 'medium', 'What nation had Skopje as its capital?', 'Macedonia', 'Zagreb', 'Kotor', 'Belgrade', 'Macedonia');
+
+	var q19 = new quizQuestion('geography', 19, 'medium', "Which Texas city is one of the nation's major ports?", 'Austin', 'Dallas', 'Hudson', 'San Antonio', 'Hudson');
+
+	var q20 = new quizQuestion('geography', 20, 'medium', "If you include all the fjords & peninsulas, which country's coastline is more than 13,000 miles in length?", 'Sweden', 'Norway', 'Denmark', 'Finland', 'Norway');
+
+	var q21 = new quizQuestion('geography', 21, 'medium', ' On what large pninsula do Oman, Yemen & Kuwait lie on?', 'Leizhou Peninsula', 'Crimea', 'Iberian Peninsula', 'Arabian Peninsula', 'Arabian Peninsula');
+
+	var q22 = new quizQuestion('geography', 22, 'medium', 'Which Danish island has Cape Morris Jesup in the Arctic as its most northerly point?', 'Isle of Man', 'Iceland', 'Greenland', 'Denmark', 'Greenland');
+
+	var q23 = new quizQuestion('geography', 23, 'medium', ' In what country does the The Patagonian region of South America mainly lie on?', 'Argentina', 'Chile', 'Venezuela', 'Panama', 'Argentina');
+
+	var q24 = new quizQuestion('geography', 24, 'medium', 'Which of these mountains extend 270 miles along the French-Spanish border?', 'Pyrenees', 'Chimborazo', 'Alps', 'Himalayas', 'Pyrenees');
+
+	var q25 = new quizQuestion('geography', 25, 'medium', 'The city of Thon Buri was incorporated into what Thai city in 1971?', 'Nonthaburi', 'Bangkok', 'Chiang Mai', 'Nakhon Ratchasima', 'Bangkok');
+
+	var q26 = new quizQuestion('geography', 26, 'medium', 'Which was trade rout was known in the Middle Ages as the Gateway to China?', 'Indian Ocean Trade', 'Incense Route', 'Grand Trunk Road', 'The Silk Road', 'The Silk Road');
+
+	var q27 = new quizQuestion('geography', 27, 'medium', 'Which  island, once ruled by Ponce de Leon, has Ponce as the chief Caribbean port?', 'Dominican Republic', 'Puerto Rico', 'Costa Rica', 'Cuba', 'Puerto Rico');
+
+	var q28 = new quizQuestion('geography', 28, 'medium', 'The northern part of this country was once called "Kitai" or "Cathay"', 'China', 'Japan', 'Vietnam', 'Korea', 'China');
+
+	var q29 = new quizQuestion('geography', 29, 'medium', 'In which sea shore are the rock & fortress of Masada found on?', 'Red Sea', 'Mediterranean Sea', 'The Dead Sea', 'Sea of Galilee', 'The Dead Sea');
+
+	var q30 = new quizQuestion('geography', 30, 'medium', 'The country Belize is on which peninsula?', 'Marseille', 'Yucatan', 'Illescas Peninsula', 'Taitao Peninsula', 'Yucatan');
+
+	var q31 = new quizQuestion('geography', 31, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q32 = new quizQuestion('geography', 32, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q33 = new quizQuestion('geography', 33, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q34 = new quizQuestion('geography', 34, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q35 = new quizQuestion('geography', 35, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q36 = new quizQuestion('geography', 36, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q37 = new quizQuestion('geography', 37, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q38 = new quizQuestion('geography', 38, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q39 = new quizQuestion('geography', 39, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q40 = new quizQuestion('geography', 40, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q41 = new quizQuestion('geography', 41, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q42 = new quizQuestion('geography', 42, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q43 = new quizQuestion('geography', 43, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q44 = new quizQuestion('geography', 44, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	var q45 = new quizQuestion('geography', 45, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+
+	
+
 	//Array that holds all the questions
 
-	var allQuestions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15];
+	var allQuestions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30];
 
 	//The function isGameSelectionComplete checks whether the game object properties have been entered and displays the button to begin the game
 
@@ -421,7 +483,11 @@ $(document).ready(function(){
 
 		for(var i = 0; i < allQuestions.length; i++){
 
+
+
 			if(allQuestions[i].difficulty == game.difficulty && allQuestions[i].category == game.category && game.maxQuestions > 0){
+
+				alert('hey');
 
 				game.toBeAdded.push(allQuestions[i]);
 
