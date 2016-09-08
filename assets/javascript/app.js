@@ -134,41 +134,41 @@ $(document).ready(function(){
 
 	var q30 = new quizQuestion('geography', 30, 'medium', 'The country Belize is on which peninsula?', 'Marseille', 'Yucatan', 'Illescas Peninsula', 'Taitao Peninsula', 'Yucatan');
 
-	var q31 = new quizQuestion('geography', 31, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q31 = new quizQuestion('geography', 31, 'hard', "Which river forms a natural border between the US and Mexico?", 'Rio Grande', 'Mississippi River', 'Red River', 'Gila River', 'Rio Grande');
 
-	var q32 = new quizQuestion('geography', 32, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q32 = new quizQuestion('geography', 32, 'hard', "In Japan, a major economic problem has been the lack of", 'Natural Resources', 'Investment Capital', 'Skilled Labor', 'Experienced Management', 'Natural Resources');
 
-	var q33 = new quizQuestion('geography', 33, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q33 = new quizQuestion('geography', 33, 'hard', "Both Japan and Indonesia are made up of a chain of islands called", 'An Archipelago', 'A Peninsula', 'A Delta', 'An Atoll', 'An Archipelago');
 
-	var q34 = new quizQuestion('geography', 34, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q34 = new quizQuestion('geography', 34, 'hard', "Which geographic factor has had the most influence on Poland's historical and cultural development?", 'A Severe Climate', 'Vast Deposits of Oil', 'Location on the Great European Plain', 'A Rugged Coastline', 'Location on the Great European Plain');
 
-	var q35 = new quizQuestion('geography', 35, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q35 = new quizQuestion('geography', 35, 'hard', "Which of these nations is located closet to the Philippines, Malaysia, and Indonesia?", 'Korea', 'Vietnam', 'Somalia', 'Pakistan', 'Vietnam');
 
-	var q36 = new quizQuestion('geography', 36, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q36 = new quizQuestion('geography', 36, 'hard', "In addition to providing water for Indian agriculture, the Ganges River remains important to India because it is", 'The Only Source of Indian Hydroelectric Power', 'A Sacred River For The Hindu Population', 'The Birthplace Of Hindu Culture', 'An Unofficial Boundary Between The Hindus And Muslims', 'A Sacred River For The Hindu Population');
 
-	var q37 = new quizQuestion('geography', 37, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q37 = new quizQuestion('geography', 37, 'hard', "An effect of a mountainous topography on Inca and Chinese civilizations was the development of", 'Industralization', 'Single-Crop Economy', 'Desalinization Project', 'Terrace Farming', 'Terrace Farming');
 
-	var q38 = new quizQuestion('geography', 38, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q38 = new quizQuestion('geography', 38, 'hard', "Many people in Southeast Asia hope for the timely arrival of the summer monsoons each year because", 'Floods Are The Only Way To Water Their Farmlands', 'Daily Temperatures Often Reach 100 Degrees Farenheit', 'Little Rain Has Fallen For Many Months', 'Oases Provide Water For Nomadic Herders', 'Little Rain Has Fallen For Many Months');
 
-	var q39 = new quizQuestion('geography', 39, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q39 = new quizQuestion('geography', 39, 'hard', "A topographical map would most likely be used to", 'Identify The Major Agricultural Products  of Egypt', 'Determine The Population Of Beijing, China', 'Estimate The Elevation Of Bangkok, Thailand', 'Count The Number Of Provinces In India', 'Estimate The Elevation Of Bangkok, Thailand');
 
-	var q40 = new quizQuestion('geography', 40, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q40 = new quizQuestion('geography', 40, 'hard', "On a map of the world, Asia is to Japan as Europe is to", 'Great Britain', 'The Netherlands', 'Austria', 'Italy', 'Great Britain');
 
-	var q41 = new quizQuestion('geography', 41, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q41 = new quizQuestion('geography', 41, 'hard', "The Russian steppe is most similar in topography to the", 'Mountains In Switzerland', 'Deserts In The Middle East', 'Rainforests In South America', 'Savannas In Africa', 'Savannas In Africa');
 
-	var q42 = new quizQuestion('geography', 42, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q42 = new quizQuestion('geography', 42, 'hard', "The Suez Canal, the Strait of Hormuz, and the Strait of Gibraltar are important because they", 'Prevent Attacks On Bordering Nations', 'Control Access To Vital Trade Routes', 'Limit Russian Access To Warm-Water Points', 'Prohibit The Movement Of Ships Carrying Nuclear Weapons', 'Control Access To Vital Trade Routes');
 
-	var q43 = new quizQuestion('geography', 43, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q43 = new quizQuestion('geography', 43, 'hard', "Geographic diversity in the Middle East has contributed to", 'Unequal Standards Of Living', 'A Common Economic System', 'Similar Political Systems', 'Military Alliances With Japan', 'Unequal Standards Of Living');
 
-	var q44 = new quizQuestion('geography', 44, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q44 = new quizQuestion('geography', 44, 'hard', "The Suez Canal, the Panama Canal, and the Straits of the Dardanelles are similar because they", 'Are Strategic Waterways That Have Been The Center Of Conflicts', 'Was Part Of The French Colonial Empire', 'Are Located In Regions That Are Rich In Natural Resources', 'Prohibit The Movement Of Ships Carrying Nuclear Weapons', 'Are Strategic Waterways That Have Been The Center Of Conflicts');
 
-	var q45 = new quizQuestion('geography', 45, 'hard', 'Whatistheapitalfrance', 'Marseille', 'Orléans', 'Paris', 'Lyon', 'Paris');
+	var q45 = new quizQuestion('geography', 45, 'hard', "In which way have the Andes Mountains and the Amazon rain forest affected the development of Latin America?", 'Promoting International Unity', 'Increasing Cultural Diversity', 'Encouraging Trade Agreements', 'Strengthening Political Alliances', 'Increasing Cultural Diversity');
 
 	
 
 	//Array that holds all the questions
 
-	var allQuestions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30];
+	var allQuestions = [q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24, q25, q26, q27, q28, q29, q30, q31, q32, q33, q34, q35, q36, q37, q38, q39, q40, q41, q42, q43, q44, q45];
 
 	//The function isGameSelectionComplete checks whether the game object properties have been entered and displays the button to begin the game
 
