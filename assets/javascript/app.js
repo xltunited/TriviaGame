@@ -487,8 +487,6 @@ $(document).ready(function(){
 
 			if(allQuestions[i].difficulty == game.difficulty && allQuestions[i].category == game.category && game.maxQuestions > 0){
 
-				alert('hey');
-
 				game.toBeAdded.push(allQuestions[i]);
 
 				game.maxQuestions--;

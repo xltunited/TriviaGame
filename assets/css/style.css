@@ -452,6 +452,8 @@ fieldset[disabled] .btn-sci.active {
   background-color: #000000; 
   border-color: #000000; 
 
+  margin-bottom: 50px;
+
   width: 100%;
 } 
  
@@ -645,5 +647,15 @@ fieldset[disabled] .btn-begin.active {
   width: 100%;
 
   font-size: 2em;
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .container-fluid{
+
+    zoom: .8;
+
+  }
 
 }
